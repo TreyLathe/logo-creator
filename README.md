@@ -9,12 +9,12 @@ Table of Contents:
 - [Tests](#tests)
 
 ## USER STORY/CHALLENGE GOAL:
- command line interface for a user to create a sgv logo of chosen shape, letters, and colors of both. 
+ Command line interface for a user to create a sgv logo of chosen shape, letters, and colors of both. 
 
 ## RESOURCES USER & CREDITS:
 - Class instruction and office hours
 - W3 sections on svg, promise/async, and more
-- Xpert Learning assistant to help with validation code and the breakdown of the hexidecimal regular expresion.
+- Xpert Learning assistant to help with validation code and the breakdown of the hexidecimal regular expression
 - Jest documentation
 
 
@@ -64,3 +64,4 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 - Create folder of created logos and name logos with unique names (test previous names to ask user to chose another name)
 
 ## TESTS
+

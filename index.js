@@ -26,7 +26,7 @@ async function createSVG() {
     {
       type: "input",
       name: "color",
-      message: "Choose a color for shape (in hex, e.g., #ff00ff):",
+      message: "Choose a color for shape (in hex, e.g. magenta, #ff00ff):",
       // validate function using match to make sure it's hexidecimal
       validate: function (value) {
         const pass = value.match(/^#(?:[0-9a-fA-F]{3}){1,2}$/i);
@@ -40,7 +40,7 @@ async function createSVG() {
     {
       type: "input",
       name: "colorLetter",
-      message: "Choose a color for letters(in hex, e.g., #ff00ff):",
+      message: "Choose a color for letters(in hex, e.g. white, #ffffff):",
       // validate function using match to make sure it's hexidecimal
       validate: function (value) {
         const pass = value.match(/^#(?:[0-9a-fA-F]{3}){1,2}$/i);
@@ -59,9 +59,9 @@ async function createSVG() {
     answers.letters,
     answers.colorLetter
   );
-  fs.writeFileSync("shape.svg", svgContent);
+  fs.writeFileSync("logo.svg", svgContent);
   // Log a message to the console indicating the SVG file has been created
-  console.log("SVG file created as shape.svg");
+  console.log("SVG file created as logo.svg");
 }
 
 createSVG();

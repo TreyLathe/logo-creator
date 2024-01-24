@@ -52,12 +52,12 @@ User is prompted to add a hexidecimal number for color of shape and of the lette
 THEN an SVG file is created named `logo.svg`
 AND the output text "Generated logo.svg" is printed in the command line
 
-After input is recieved, a file is created shape.svg (???? need to change to logo.svg) and output text that file was created is displayed. 
+After input is recieved, a file is created logo.svg and output text "Generated logo.svg" is displayed. 
 
 >WHEN I open the `logo.svg` file in a browser
 THEN I am shown a 300x200 pixel image that matches the criteria I entered
 
-????? Need to change size of pixel image and put in browser automatically? In more folder?
+Creates 300x200px svg image. (put in browser automatically? In more folder?)
 
 ## FUTURE DIRECTIONS AND CONTRIBUTING
 

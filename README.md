@@ -9,10 +9,14 @@ Table of Contents:
 - [Tests](#tests)
 
 ## USER STORY/CHALLENGE GOAL:
- Command line interface for a user to create a sgv logo of chosen shape, letters, and colors of both. 
+ AS a freelance web developer
+I WANT to generate a simple logo for my projects
+SO THAT I don't have to pay a graphic designer
 
-## RESOURCES USER & CREDITS:
-- Class instruction and office hours
+Create a command line interface for a user to create a sgv logo of chosen shape, letters, and colors of both based on acceptance criteria: [Usage and Comments](#usage--comments)
+
+## RESOURCES USER && CREDITS:
+- Class instruction and office hours, specifically for assistance creating tests and understanding test-driven development.
 - W3 sections on svg, promise/async, and more
 - Xpert Learning assistant to help with validation code and the breakdown of the hexidecimal regular expression
 - Jest documentation
@@ -23,10 +27,10 @@ Table of Contents:
 
 - Deployed Site: N/A
 
-## SCREENSHOTS & SCREENCASTS:
+## SCREENSHOTS &&/|| SCREENCASTS:
 
 
-## USAGE & COMMENTS:
+## USAGE && COMMENTS:
 
 GIVEN a command-line application that accepts user input
 
@@ -65,3 +69,4 @@ Creates 300x200px svg image. (put in browser automatically? In more folder?)
 
 ## TESTS
 
+Using Jest testing framework, enter "npm run test" in terminal to test if shape, colors and letters are generated correctly in a named SVG file and validates shape and color inputs correctly. 

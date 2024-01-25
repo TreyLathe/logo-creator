@@ -36,6 +36,8 @@ Screenshot of Examples:
 
 ## USAGE && COMMENTS:
 
+In terminal command line, enter "node index.js" to start the application.
+
 GIVEN a command-line application that accepts user input
 
 > WHEN I am prompted for text

@@ -28,6 +28,10 @@ Create a command line interface for a user to create a sgv logo of chosen shape,
 - Deployed Site: N/A
 
 ## SCREENSHOTS &&/|| SCREENCASTS:
+ScreenCast: https://drive.google.com/file/d/1EqcIemoj4e6zXdQnJsvXJhST-ryJ2rer/view
+
+Screenshot of Examples:
+![SVG Logo Examples](./examples/Screenshot%202024-01-24%20at%205.17.17 PM.png).
 
 
 ## USAGE && COMMENTS:
